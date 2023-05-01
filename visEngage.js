@@ -31,7 +31,7 @@ showButton.addEventListener('click', () => {
 
 });
 // Action if they push a color button 
-document.getElementById('btn-red').addEventListener("click", (e) => {
+/*document.getElementById('btn-red').addEventListener("click", (e) => {
 	let color = document.getElementById('btn-red').innerHTML;
     addColorEntry(color);
      hiddenButtons.style.display = 'none';
@@ -40,7 +40,7 @@ document.getElementById('btn-red').addEventListener("click", (e) => {
      welc.style.display = 'none';
      thank.style.display = 'block';
     
-})
+})*/
 
 
 var colorWheel = document.getElementById("color-wheel");
