@@ -54,7 +54,7 @@ colorWheel.addEventListener("click", function(event) {
 });
 
 
-document.getElementById('btn-orange').addEventListener("click", (e) => {
+/*document.getElementById('btn-orange').addEventListener("click", (e) => {
 	let color = document.getElementById('btn-orange').innerHTML;
     addColorEntry(color);
      hiddenButtons.style.display = 'none';
@@ -119,7 +119,7 @@ document.getElementById('btn-violet').addEventListener("click", (e) => {
      thank.style.display = 'block';
      canv.style.display = 'none';
      welc.style.display = 'none';
-})
+})*/
 
 // Action if complete register button
 // document.getElementById('register-btn').addEventListener("click", registerUser);
