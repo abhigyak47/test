@@ -43,7 +43,18 @@ showButton.addEventListener('click', () => {
 })*/
 
 
-var colorWheel = document.getElementById("color-wheel");
+// Get the color wheel element
+const colorWheel = document.getElementById("color-wheel");
+
+// Get the Choose Color button element
+const chooseColorBtn = document.getElementById("btn-input");
+
+// Add event listener to the Choose Color button
+chooseColorBtn.addEventListener("click", function() {
+  // Toggle the visibility of the color wheel
+  colorWheel.classList.toggle("show-color-wheel");
+});
+
 
 colorWheel.addEventListener("click", function(event) {
   var colorSlice = event.target.closest(".color-slice");
